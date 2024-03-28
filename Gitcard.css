@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Images/young-of-business-people-meeting-conference-discussion-corporate-free-photo.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+    
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:rgba(26, 25, 25, 0.548);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+        font-size: 50px;
+        /* make our h1 tag larger */
+        font-family: sans-serif;
+        /* choosing our font */
+        background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(82, 216, 216, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%);
+        /* you can change the colors based on your preference */
+        background-clip: text;
+        /*it defines how far the background should extend within an element, here we set it to text */
+        -webkit-background-clip: text;
+        /*for browsers compatibility */
+        -webkit-text-fill-color: transparent;
+        /* specifies the fill color of text characters. We use transparent to use the background as our text fill */
+        animation: wave 2000ms ease alternate infinite;
+        /* add this line */
+        transition: all 0.4s ease;
+        /* add this line */
+      }
+      @keyframes wave {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 50vw 10px;
+        }
+      
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #user-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  #avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    background-size: cover;
+    margin-right: 20px;
+  }
+  
+  #user-info {
+    flex: 1;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  

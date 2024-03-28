@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github User Card</title>
+  <link rel="stylesheet" href="Gitcard.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Github User Card</h1>
+    <form id="github-form"  method="get">
+      <input type="text" id="username" placeholder="Enter GitHub Username" required>
+      <button type="submit">Get User Info</button>
+    </form >
+    <div id="user-card" class="hidden">
+      <div id="avatar"></div>
+      <div id="user-info">
+        <p><span class="label">Username:</span> <span id="username-info"></span></p>
+        <p><span class="label">Name:</span> <span id="name-info"></span></p>
+        <p><span class="label">Public Repos:</span> <span id="repos-info"></span></p>
+        <p><span class="label">Public Gists:</span> <span id="gists-info"></span></p>
+        <p><span class="label">Profile Created At:</span> <span id="created-info"></span></p>
+      </div>
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
